@@ -7,3 +7,5 @@
         password: ${{ secrets.ftp_password }}
  
 - server-dir: caminho da pasta da aplicacão
+- GitHub Action
+FTP Deploy
