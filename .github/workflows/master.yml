@@ -26,6 +26,4 @@ jobs:
           **/.git*/**
           **/node_modules/**
           fileToExclude.txt
-          license.txt
-          readme.md
-          .ftp-deploy-sync-state.json
+         
