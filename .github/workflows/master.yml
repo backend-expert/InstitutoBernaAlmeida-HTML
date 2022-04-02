@@ -20,4 +20,4 @@ jobs:
         server-dir: public_html/pastatests/
         
         protocolo : ftps 
-        port : 1234  # todo replace com sua porta ftps de hosts da web
+        port : 21  # todo replace com sua porta ftps de hosts da web
