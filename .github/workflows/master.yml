@@ -28,18 +28,18 @@ jobs:
         #   **/node_modules/**
         #   fileToExclude.txt
 
-        exclude: '
-          - **/vendor/**
-          - **/vendor*/**
-          - **/node_modules/**
-          - **/node_modules*/**
-          - **/resource/css/**
-          - **/resource/css*/**
-          - **/resource/js/**
-          - **/resource/js*/**
-          - **/.git/**
-          - **/.git*/**
-          '
+        # exclude: '
+        #   - **/vendor/**
+        #   - **/vendor*/**
+        #   - **/node_modules/**
+        #   - **/node_modules*/**
+        #   - **/resource/css/**
+        #   - **/resource/css*/**
+        #   - **/resource/js/**
+        #   - **/resource/js*/**
+        #   - **/.git/**
+        #   - **/.git*/**
+        #   '
         
         # exclude: .github** .github*/** node_modules** node_modules*/** resources/js** resources/js*/** resources/css** resources/css*/** resources/sass* resources/sass*/** Workspace* Workspace*/** .vscode* .vscode*/** .gitignore* .gitignore*/**  .gitattributes* .gitattributes*/**
 
