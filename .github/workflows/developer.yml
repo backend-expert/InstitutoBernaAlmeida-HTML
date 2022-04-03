@@ -1,6 +1,7 @@
 on: 
   push:
-    branches: [ delevoper ]
+    branches: 
+      - delevoper 
     
 name: 🚀 Deploy delevoper website on push
 jobs:
