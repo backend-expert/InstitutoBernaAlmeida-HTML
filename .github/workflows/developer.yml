@@ -30,8 +30,6 @@ jobs:
           **/.github/**
           .gitattributes
           .gitignore
-          readme.md
-          license
           fileToExclude.txt
 
         
