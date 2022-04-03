@@ -22,11 +22,14 @@ jobs:
         protocolo : ftps 
         port : 21 
 
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
-          fileToExclude.txt
+        # exclude: |
+        #   **/.git*
+        #   **/.git*/**
+        #   **/node_modules/**
+        #   fileToExclude.txt
+        
+        exclude: .github** .github*/** node_modules** node_modules*/** resources/js** resources/js*/** resources/css** resources/css*/** resources/sass* resources/sass*/** Workspace* Workspace*/** .vscode* .vscode*/** .gitignore* .gitignore*/**  .gitattributes* .gitattributes*/**
+
 
 
          
