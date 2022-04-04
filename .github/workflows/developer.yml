@@ -19,8 +19,8 @@ jobs:
         password: ${{ secrets.ftp_password }}
         server-dir: public_html/development
         
-        protocolo : ftps 
-        port : 21 
+        # protocolo : ftps 
+        # port : 21 
 
         # exclude: |
         #   **/.git*
